@@ -66,6 +66,23 @@ The system includes pre-seeded evaluation accounts with a **1-Click Demo Switche
 
 ## 🚀 Getting Started
 
+### Quickstart with Docker Compose (Recommended)
+You can run the entire system (MongoDB + Python AI Service + Express Server + React Client) in one command:
+
+```bash
+docker compose up -d --build
+```
+Access the application:
+- **Frontend Dashboard**: [http://localhost:3000](http://localhost:3000)
+- **Backend API & Health**: [http://localhost:5000/api/health](http://localhost:5000/api/health)
+- **AI Microservice**: [http://localhost:5001/health](http://localhost:5001/health)
+
+For complete CI/CD setup, Jenkins pipelines, and deployment instructions, refer to [`DEVOPS.md`](file:///c:/Users/sujan/OneDrive/Desktop/Second%20Sem%20Project/AI%20Aviation%20Management%20System/DEVOPS.md).
+
+---
+
+### Manual Local Setup
+
 ### Prerequisites
 - Node.js (v18+)
 - MongoDB (Running locally on `mongodb://127.0.0.1:27017`)
